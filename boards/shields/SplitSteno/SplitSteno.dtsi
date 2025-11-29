@@ -42,7 +42,3 @@
     };
 };
 
- /**** TRANSFORM ADJUSTMENT ****/
- default_transform {
-    col-offset = <5>;
- };&
