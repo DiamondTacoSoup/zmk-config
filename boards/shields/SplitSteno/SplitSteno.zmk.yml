@@ -1,0 +1,12 @@
+file_format: "1"
+id: SplitSteno
+name: SplitSteno
+type: shield
+url: https://github.com/DiamondTacoSoup/zmk-config
+requires: [XIAO-nRF52840]
+exposes: []
+features:
+  - keys
+siblings:
+  - SplitSteno_left
+  - SplitSteno_right
