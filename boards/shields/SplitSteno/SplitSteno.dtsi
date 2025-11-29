@@ -15,10 +15,6 @@
         >;
     };
 
-    /**** TRANSFORM ADJUSTMENT ****/
-    &default_transform {
-        col-offset = <5>;
-    };
 
     /**** KSCAN CONFIG ****/
     kscan0: kscan0 {
@@ -45,3 +41,8 @@
         zmk,physical-layout = &physical_layout0;
     };
 };
+
+ /**** TRANSFORM ADJUSTMENT ****/
+ default_transform {
+    col-offset = <5>;
+ };&
