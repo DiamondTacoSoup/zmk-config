@@ -37,8 +37,16 @@
         transform = <&default_transform>;
     };
 
+    vbatt {
+      compatible = "voltage-divider";
+      io-channels = <&adc 0>;
+      output-ohms = <2000000>;
+      full-ohms = <(2806000)>;
+   };
+
     chosen {
         zmk,physical-layout = &physical_layout0;
+        zmk,battery = &vbatt;
     };
 };
 
