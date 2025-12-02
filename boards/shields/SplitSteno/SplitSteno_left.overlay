@@ -9,11 +9,12 @@
         , <&xiao_d 1 GPIO_ACTIVE_HIGH>
         , <&xiao_d 5 GPIO_ACTIVE_HIGH>
         ;
-};
 
-vbatt {
+    vbatt {
       compatible = "voltage-divider";
       io-channels = <&adc 0>;
       output-ohms = <2000000>;
       full-ohms = <2806000>;
    };
+};
+
