@@ -1,5 +1,6 @@
 if SHIELD_MY_KEYBOARD_LEFT
 
+CONFIG_ZMK_BATTERY_REPORTING=y
 # Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME
     default "SplitSteno"
@@ -15,3 +16,4 @@ config ZMK_SPLIT
     default y
 
 endif
+
