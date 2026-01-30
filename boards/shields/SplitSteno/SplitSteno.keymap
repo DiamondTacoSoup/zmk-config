@@ -14,7 +14,7 @@
             bindings = <
                 &kp S    &kp T    &kp P    &kp H    &kp ASTERISK    &kp F    &kp P    &kp L    &kp T    &kp D
                 &kp S    &kp K    &kp W    &kp R    &kp ASTERISK    &kp R    &kp B    &kp G    &kp S    &kp Z
-                                           &kp A    &kp O    &kp E    &kp U
+                                           &kp BT_CLR_ALL    &kp O    &kp E    &kp U
             >;
         };
     };
